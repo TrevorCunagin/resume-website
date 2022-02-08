@@ -14,7 +14,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top">         
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -32,6 +32,13 @@
             </div>
         </nav>
         <!-- Page Content-->
+        <audio autoplay id="bgAudio">
+            <source src="assets/Eterna_Forest.wav" type="audio/mpeg">
+        </audio>
+        <script>
+            var audio = document.getElementById("bgAudio");
+            audio.volume = 0.1;
+        </script>
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
@@ -44,7 +51,9 @@
                         Kentucky ·
                         <a href="mailto:trevorcunagin@gmail.com">trevorcunagin@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I'm an aspiring software developer interested in web development and database design. I run an active GitHub account with projects that I use to learn and refine new skills.</p>
+                    <p class="lead mb-5">I'm a software developer with a BS in Computer Science. 
+                        I'm particularly interested in full-stack web development and game development. I've accomplished a lot and still have tons of room to grow!<br><br>
+                    I'm also a Kentucky native and my Appalachian heritage is important to me. I hope to one day use my skills to give back to my community.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/trevorcunagin/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/TrevorCunagin"><i class="fab fa-github"></i></a>
@@ -62,7 +71,7 @@
                             <div class="subheading mb-3">Bachelor of Science</div>
                             <div>Computer Science - Technology Concentration</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Graduated Fall of 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -94,15 +103,19 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"></span>
-                            <a href="https://github.com/TrevorCunagin/jscalculator">Javascript calculator</a>
+                            <a href="https://github.com/TrevorCunagin/jscalculator" target="_blank">Javascript calculator</a>
                         </li>
                         <li>
                             <span class="fa-li"></span>
-                            <a href="https://github.com/TrevorCunagin/pong">Pong game</a>
+                            <a href="https://github.com/TrevorCunagin/pong" target="_blank">Pong game</a>
                         </li>
                         <li>
                             <span class="fa-li"></span>
-                            <a href="https://github.com/TrevorCunagin/wagecalculator">Wage calculator in C++</a>
+                            <a href="https://github.com/TrevorCunagin/wagecalculator" target="_blank">Wage calculator in C++</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            <a href="https://github.com/TrevorCunagin/CSC440GroupProject" target="_blank">Grade Management project</a>
                         </li>
                         <li>
                             <span class="fa-li"></span>
